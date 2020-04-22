@@ -9,7 +9,9 @@
 
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <a onclick="window.external.raiseEvent(mfOnOK, window.document)" href="#" class="btn_s01">확인</a>
+  <a onclick="window.external.mfOnOK" href="#" class="btn_s01">확인</a>
+  <a onclick="window.external.mfOnOK()" href="#" class="btn_s02">확인</a>
+  <a onclick="window.external.raiseEvent(mfOnOK, window.document)" href="#" class="btn_s03">확인</a>
   
 <!--  <asp:Button ID="btnOK" runat="server" OnClick="mfOnOK">확인2</Button> -->
 </body>
